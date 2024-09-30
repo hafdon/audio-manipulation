@@ -120,15 +120,10 @@ def main():
     else:
         youtube_url = input("Please enter the YouTube URL: ")
 
-    if args.output:
-        output_dir = args.output
-    else:
-        output_dir = "./audio/"
-
     # Download MP3
     download_mp3(
         youtube_url=youtube_url,
-        output_dir=output_dir,
+        output_dir=args.output,
         filename_template=args.filename,
         audio_quality=args.quality,
     )
