@@ -8,6 +8,12 @@
 invoke fetch
 ```
 
+(Or for a GUI experience:)
+
+```bash
+invoke guifetch
+```
+
 **Calling file directly:**
 
 ```bash
